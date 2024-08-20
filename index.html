@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Concert(Task 1)</title>
+</head>
+
+<center>
+
+    <body>
+        <h1>
+            Welcome To Sabrina Carpenter!
+
+        </h1>
+        <div>
+
+            <img src="https://www.nme.com/wp-content/uploads/2023/08/Sabrina-Carpenter-performing.jpg" width="450" height="300">
+        </div>
+        <a href="https://mail.google.com/mail/u/0/#inbox">
+            <button>Sign in</button>
+        </a>
+        <section>
+            <h2>Book Your Seats</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Seat Type</th>
+                        <th>Cost</th>
+                        <th>No. of People</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>VIP</td>
+                        <td>Rs. 1500</td>
+                        <td>
+                            <select name="vip-seats">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                          </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Regular</td>
+                        <td>Rs. 1000</td>
+                        <td>
+                            <select name="regular-seats">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                          </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Economy</td>
+                        <td>Rs. 500</td>
+                        <td>
+                            <select name="economy-seats">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                          </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Select a Venue</h2>
+            <form>
+                <div class="form-group">
+                    <label><input type="radio" name="venue" value="Lollapalooza">Lollapalooza</label>
+                    <label><input type="radio" name="venue" value="Coachella"> Coachella</label>
+                    <label><input type="radio" name="venue" value="Gov Ball"> Gov Ball</label>
+                </div>
+                <h3>Feedback</h3>
+                <div class="form-group">
+                    <label for="feedback">Your feedback:</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+                </div>
+                <input type="submit" value="Submit" onclick="window.location.href='https://in.bookmyshow.com'; return false;">
+            </form>
+        </section>
+
+
+    </body>
+</center>
+
+
+
+
+</html>
